@@ -8,17 +8,17 @@ https://templatemo.com/tm-557-grad-school
 
 @import url(fontawesome.css);
 @import url(
-    '<link href='https://fonts.googleapis.com/css?family=Montserrat:100,
-    200,
-    300,
-    400,
-    500,
-    600,
-    700,
-    800,
-    900' rel='stylesheet'>'
-  )
-  ; body {
+  '<link href='//https:fonts.googleapis.com/css?family=Montserrat:100,
+  200,
+  300,
+  400,
+  500,
+  600,
+  700,
+  800,
+  900' rel='stylesheet'>'
+);
+body {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -181,14 +181,15 @@ a.menu-link {
   width: 100%;
   top: 0;
 }
-.main-header .logoactual {
-  max-height: 10px;
+.logoactual {
+  height: 70px;
+  float: left;
+  padding-top: 8px;
+  padding-left: 60px;
 }
 
 /* .main-header .logo {
-    float: left;
-    line-height: 80px;
-    padding-left: 60px;
+
 }
 
 .main-header .logo a {
@@ -914,6 +915,7 @@ section.video .left-content .main-button {
 .video-item {
   position: relative;
   width: 100%;
+
   max-width: 600px;
   margin: 0px auto 0;
 }
@@ -929,15 +931,16 @@ section.video .left-content .main-button {
   }
 }
 
-.video-item figure {
+/* .video-item figure {
   position: relative;
   width: 100%;
   font-size: 0;
 }
 .video-item figure img {
   width: 100%;
-}
-.video-item figure a:before {
+} */
+
+/* .video-item figure a:before {
   content: '';
   position: absolute;
   bottom: 10px;
@@ -964,9 +967,9 @@ section.video .left-content .main-button {
 }
 .video-item figure a:hover:before {
   background-color: #f5a425;
-}
+} */
 
-.video-item .video-caption {
+/*.video-item .video-caption {
   position: absolute;
   z-index: 10;
   background-color: rgba(250, 250, 250, 0.75);
@@ -976,12 +979,12 @@ section.video .left-content .main-button {
   bottom: 0;
 }
 
-.video-item .video-caption h4 {
+ .video-item .video-caption h4 {
   font-size: 20px;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
-}
+} */
 
 /* Magnific Popup CSS */
 .mfp-bg {
