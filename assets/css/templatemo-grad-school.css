@@ -912,13 +912,19 @@ section.video .left-content .main-button {
   margin-top: 30px;
 }
 
-.video-item {
+
+video {
+  
+  width: 100%;
+  height: auto;
+}
+
+/* .video-item {
   position: relative;
   width: 100%;
-
   max-width: 600px;
   margin: 0px auto 0;
-}
+} */
 
 @media screen and (max-width: 767px) {
   section.video .left-content {
