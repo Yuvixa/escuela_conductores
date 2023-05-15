@@ -493,11 +493,13 @@ section.features .col-4 {
 /* Why Choosing Us */
 
 section.why-us {
-  background-image: url(../images/choosing-bg.jpg);
+  background-color: whitesmoke;
+  /* background-image: url
+  (../images/choosing-bg.jpg);
   background-color: #172238;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 100px;
+  padding-bottom: 100px; */
 }
 
 #tabs {
@@ -583,19 +585,21 @@ section.why-us {
   font-size: 32px;
   font-weight: 700;
   letter-spacing: 1px;
-  color: #fff;
+  color: blue;
   margin-bottom: 30px;
 }
 
 #tabs p {
-  color: #fff;
+  color: blue;
   font-size: 15px;
   line-height: 28px;
 }
 
 .tabs-content {
-  margin-top: 60px;
+  /* margin-top: 60px; */
   text-align: left;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 @media screen and (max-width: 767px) {
