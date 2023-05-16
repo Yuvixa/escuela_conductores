@@ -505,7 +505,7 @@ section.why-us {
 #tabs {
   text-align: center;
 }
-#tabs ul {
+/* #tabs ul {
   margin: 0;
   padding: 0;
   -webkit-column-count: 3;
@@ -525,7 +525,6 @@ section.why-us {
   font-weight: 400;
   font-size: 1.2em;
   letter-spacing: 1px;
-  text-align: center;
 }
 #tabs ul li a {
   display: block;
@@ -579,7 +578,7 @@ section.why-us {
 }
 #tabs ul .ui-tabs-active a:before {
   border-color: #f5a425;
-}
+} */
 #tabs h4 {
   margin-top: 60px;
   font-size: 32px;
@@ -881,8 +880,9 @@ section.courses .owl-carousel button.active {
 /* Video */
 
 section.video {
-  background-image: url(../images/video-bg.jpg);
+  background-image: url(../images/clasemanejo.jpg);
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   background-color: #172238;
   padding: 120px 0px;
@@ -916,9 +916,7 @@ section.video .left-content .main-button {
   margin-top: 30px;
 }
 
-
 video {
-  
   width: 100%;
   height: auto;
 }
@@ -1453,6 +1451,17 @@ section.contact {
   background-size: cover;
   background-color: #172238;
   padding-bottom: 120px;
+}
+section.contact h4 {
+  color: red;
+}
+
+.contactos p {
+  color: white;
+}
+
+.contactos .textocont {
+  color: pink;
 }
 
 section.contact form {
