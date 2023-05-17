@@ -580,11 +580,12 @@ section.why-us {
   border-color: #f5a425;
 } */
 #tabs h4 {
-  
+  margin-top: 40px;
   font-size: 32px;
   font-weight: 700;
   letter-spacing: 1px;
   color: black;
+  margin-bottom: 40px;
   
 }
 
