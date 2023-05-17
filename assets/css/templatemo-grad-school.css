@@ -580,16 +580,16 @@ section.why-us {
   border-color: #f5a425;
 } */
 #tabs h4 {
-  margin-top: 60px;
+  
   font-size: 32px;
   font-weight: 700;
   letter-spacing: 1px;
-  color: blue;
-  margin-bottom: 30px;
+  color: black;
+  
 }
 
 #tabs p {
-  color: blue;
+  color: black;
   font-size: 15px;
   line-height: 28px;
 }
